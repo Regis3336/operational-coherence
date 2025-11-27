@@ -149,34 +149,57 @@ This demonstration shows that:
 ================================================================================
 ```
 
----
+📂 Repository Structure
+🔹 /paper — The Theory
 
-## 📂 Repository Structure
-### 🔹 The Theory (`/paper`)
-Contains the full LaTeX source of the manuscript:
-* **Title**: *Operational Coherence: When Mathematical Proofs Acquire a Second Verification Through Computable Instantiation*
-* **Key Concepts**: The Insight Paradox, The Yoneda Operational Triangle, The Complexity-Rigidity Principle.
+Contains the full manuscript and all LaTeX sources.
 
-### 🔹 The Abstract Proof (`cohomological.py`)
-A computational implementation of **Sheaf Cohomology**.
-* Models Theory and Code as Sheaves `T`, `I`.
-* Computes the obstruction class `[T−I] ∈ H⁰(X, E)`.
-* Demonstrates that **K-complexity bounds** force this class to vanish.
+Paper: Operational Coherence: When Mathematical Proofs Acquire a Second Verification Through Computable Instantiation
 
-### 🔹 The Concrete Proof (`check.py`)
-A probabilistic demonstration using **Newton-Raphson**.
-* Shows how independent construction + operational convergence = **certainty > 1 − 10⁻³⁰⁰**.
+Contents: LaTeX source (main.tex), bibliography, figures, and the compiled paper.pdf.
 
+Key Concepts: The Insight Paradox, The Yoneda Operational Triangle, The Complexity–Rigidity Principle.
 
----
+🔹 /src — The Computational Proofs
 
-## 🧠 The Insight Paradox
-**Why wasn’t this obvious before?**
-The most concrete form of verification (*machine execution*) requires the most abstract theoretical framework (*Category Theory*) to be justified.
-* Engineers saw the code worked but lacked the math to explain why.
-* Mathematicians had the math (Yoneda) but dismissed code as "numerical approximation."
-> We bridge this gap.
-> We show that **Execution is Transmutation**: it moves the object from the Category of Syntax (`Syn`) to the Category of Computation (`Comp`) while preserving its structural identity.
+All executable demonstrations of Operational Verification.
+
+check.py — The Concrete Proof
+
+A probabilistic verification using the Newton–Raphson operator.
+
+Shows that independent construction + structural convergence ⇒ certainty > 1 − 10⁻³⁰⁰.
+
+cohomological.py — The Abstract Proof
+
+A computational instantiation of Sheaf Cohomology.
+
+Models Theory and Code as sheaves T and I.
+
+Computes the obstruction class [T - I] ∈ H^{0}(X, \mathcal{E}).
+
+Demonstrates that K-complexity bounds force the obstruction to vanish.
+
+🔹 /notes — Supplementary Reflections
+
+Additional material not part of the formal paper.
+
+PERSONAL_NOTE.md
+
+A companion essay discussing the human implications of Operational Coherence:
+how the framework changes the lived experience of verification, independence, and creative freedom in mathematics.
+
+🧠 The Insight Paradox
+
+Why wasn’t this obvious before?
+The most concrete form of verification (execution) requires the most abstract theoretical machinery (Category Theory) to justify it.
+
+Engineers had working code but no categorical explanation.
+
+Mathematicians had Yoneda but dismissed operational behavior as “numerical”.
+
+This framework bridges the gap.
+Execution becomes Transmutation: a passage from the Category of Syntax (Syn) to the Category of Computation (Comp) while preserving structural identity.
 
 ---
 
@@ -184,7 +207,7 @@ The most concrete form of verification (*machine execution*) requires the most a
 No special libraries needed for the core proofs. Just Python.
 Clone and run:
 ```
-git clone https://github.com/yourusername/operational-coherence.git
+git clone https://github.com/Regis3336/operational-coherence.git
 cd operational-coherence
 ```
 Run the proofs:
@@ -192,11 +215,7 @@ Run the proofs:
 python src/check.py
 python src/cohomological.py
 ```
-Build the paper:
-```
-cd paper
-pdflatex main.tex
-```
+
 📝 Personal Note (PERSONAL_NOTE.md)
 
 A companion text reflecting on the human meaning of Operational Coherence for working mathematicians.
@@ -212,11 +231,14 @@ Instead of reporting merely “this theory has K bits”, the goal is to assign 
 
 ## 📜 Citation
 ```
-@article{souza2025operational,
-  title={Operational Coherence: When Mathematical Proofs Acquire a Second Verification Through Computable Instantiation},
-  author={de Souza Junior, Reinaldo Elias},
-  year={2025},
-  note={Manuscript and Code Repository}
+@misc{souza2025operational,
+  title        = {Operational Coherence: When Mathematical Proofs Acquire a Second Verification Through Computable Instantiation},
+  author       = {de Souza Junior, Reinaldo Elias},
+  year         = {2025},
+  doi          = {10.5281/zenodo.17741550},
+  url          = {https://doi.org/10.5281/zenodo.17741550},
+  publisher    = {Zenodo},
+  note         = {Manuscript and Code Repository}
 }
 ```
 ---
