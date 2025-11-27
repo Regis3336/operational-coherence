@@ -37,8 +37,9 @@ A minimal operational verification using the **Newton–Raphson** operator.
 
 - Validates independent construction + convergence ⇒ **certainty > 1 − 10⁻³⁰⁰**.
 
-``
+```
 ### 🔹 `check.py` —  Operational Verification (Newton-Raphson)
+```text
 ======================================================================
 OPERATIONAL VERIFICATION: SELF-DEMONSTRATING FRAMEWORK
 ======================================================================
@@ -93,8 +94,11 @@ By the Yoneda lemma: identical actions → identical structure
 By Kolmogorov bounds: accidental coincidence is impossible
 VERDICT: The operational verification framework is CONFIRMED.
 ======================================================================
+```
 
+```
 ### 🔹 `cohomological.py` — Cohomological Verification (Appendix A)
+```text
 ================================================================================
 COHOMOLOGICAL VERIFICATION OF OPERATIONAL FRAMEWORK
 ================================================================================
@@ -143,6 +147,7 @@ This demonstration shows that:
   • Vanishing class ⟺ K(σ) = O(1)
   • Operational verification = obstruction theory
 ================================================================================
+```
 
 ---
 
