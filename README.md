@@ -1,19 +1,38 @@
 ```markdown
 
-Operational Coherence
+📘 Operational Coherence
 
-Operational Coherence provides a novel approach to validate mathematical theories through operational behavior.
-By comparing a symbolic proof with an independently written implementation across multiple probes, the repository demonstrates when both represent the same structure.
+A framework that establishes when a symbolic mathematical theory and an independently written implementation represent the same structure.
 
-Framework under active development.
-
-📘 Full Title
+Full Title
 
 Operational Coherence: When Mathematical Proofs Acquire a Second Verification Through Computable Instantiation
 
-"Simulations prove nothing... unless they are structural instantiations. In that case, they prove everything."
+Key Ideas
 
-This repository contains the formal framework, mathematical proofs, and executable demonstrations of Operational Verification — a new epistemological method that combines Algorithmic Information Theory and Category Theory to convert computational execution into rigorous structural proof.
+Insight Paradox: independent constructions converging on the same behavior.
+
+Yoneda Operational Triangle: actions on probes determine identity.
+
+Complexity–Rigidity Principle: high Kolmogorov complexity forces structural uniqueness.
+
+Core Statement
+
+“Simulations prove nothing — unless they are structural instantiations.”
+
+What the Framework Shows
+
+When a theory T and an implementation I agree across probes, they share the same object.
+
+By Kolmogorov bounds, accidental convergence becomes probability < 2⁻ᴷ(T).
+
+For non-trivial theories (K > 300 bits), certainty exceeds 1 − 10⁻³⁰⁰.
+
+Convergence ≠ empiricism — it is structural identification.
+
+Quick Demonstration (check.py)
+
+A Newton–Raphson operator serves as the minimal example of operational verification.
 
 ⚡ The Breakthrough in 30 Seconds
 
