@@ -184,7 +184,7 @@ Demonstrates that K-complexity bounds force the obstruction to vanish.
 
 Additional material not part of the formal paper.
 
-PERSONAL_NOTE.md
+personal_note.md
 
 A companion essay discussing the human implications of Operational Coherence:
 how the framework changes the lived experience of verification, independence, and creative freedom in mathematics.
@@ -216,13 +216,13 @@ python src/check.py
 python src/cohomological.py
 ```
 
-📝 Personal Note (PERSONAL_NOTE.md)
+📝 Personal Note (personal_note.md)
 
 A companion text reflecting on the human meaning of Operational Coherence for working mathematicians.
 It is not part of the formal paper; it explores how the framework changes the experience of verification, independence, and creative freedom in mathematics.
 
 You can read it here:
-/notes/PERSONAL_NOTE.md
+/notes/personal_note.md
 
 🔹 Next Step of the Framework
 
