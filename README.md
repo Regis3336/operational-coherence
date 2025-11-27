@@ -197,8 +197,18 @@ Build the paper:
 cd paper
 pdflatex main.tex
 ```
+📝 Personal Note (PERSONAL_NOTE.md)
 
----
+A companion text reflecting on the human meaning of Operational Coherence for working mathematicians.
+It is not part of the formal paper; it explores how the framework changes the experience of verification, independence, and creative freedom in mathematics.
+
+You can read it here:
+/notes/PERSONAL_NOTE.md
+
+🔹 Next Step of the Framework
+
+The framework will evolve from using a single scalar Kolmogorov complexity value K(T) to defining a **structural complexity profile of the theory itself**.  
+Instead of reporting merely “this theory has K bits”, the goal is to assign each theory an intrinsic complexity signature — a reproducible invariant that measures the amount and distribution of structure encoded by the symbolic framework.
 
 ## 📜 Citation
 ```
