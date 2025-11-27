@@ -39,7 +39,7 @@ A minimal operational verification using the **Newton–Raphson** operator.
 
 ```
 ### 🔹 `check.py` —  Operational Verification (Newton-Raphson)
-```text
+
 ======================================================================
 OPERATIONAL VERIFICATION: SELF-DEMONSTRATING FRAMEWORK
 ======================================================================
@@ -98,7 +98,7 @@ VERDICT: The operational verification framework is CONFIRMED.
 
 ```
 ### 🔹 `cohomological.py` — Cohomological Verification (Appendix A)
-```text
+
 ================================================================================
 COHOMOLOGICAL VERIFICATION OF OPERATIONAL FRAMEWORK
 ================================================================================
