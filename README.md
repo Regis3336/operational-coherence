@@ -2,13 +2,18 @@
 
 Operational Coherence
 
-Operational Coherence provides an approach to validate mathematical theories through operational behavior. By comparing a symbolic proof with an independently written implementation across probes, the repository demonstrates when both represent the same structure. Framework under active development.
+Operational Coherence provides a novel approach to validate mathematical theories through operational behavior.
+By comparing a symbolic proof with an independently written implementation across multiple probes, the repository demonstrates when both represent the same structure.
+
+Framework under active development.
+
+📘 Full Title
 
 Operational Coherence: When Mathematical Proofs Acquire a Second Verification Through Computable Instantiation
 
 "Simulations prove nothing... unless they are structural instantiations. In that case, they prove everything."
 
-This repository contains the formal framework, mathematical proofs, and executable demonstrations of Operational Verification: a new epistemological method that uses Algorithmic Information Theory and Category Theory to convert computational execution into rigorous structural proof.
+This repository contains the formal framework, mathematical proofs, and executable demonstrations of Operational Verification — a new epistemological method that combines Algorithmic Information Theory and Category Theory to convert computational execution into rigorous structural proof.
 
 ⚡ The Breakthrough in 30 Seconds
 
@@ -21,14 +26,19 @@ Yoneda Principle: If they exhibit identical actions (morphisms) on all probes, t
 
 Kolmogorov Complexity: The probability of this happening by accident is bounded by 2^−K(T).
 
-For any non-trivial theory (K > 300 bits), this probability drops below 10^−90.
-Convergence is not empirical validation. It is Structural Identification.
+📉 For any non-trivial theory (K > 300 bits), this probability drops below 10^−90.
+✅ Convergence is not empirical validation. It is Structural Identification.
 
 🧪 The "Hello World" of Epistemology
 
 Don’t believe the philosophy? Run the math.
 
-This repository includes check.py, a self-verifying script that implements the Operational Verification principle on a classic Newton-Raphson operator.
+This repository includes check.py, a self-verifying script that applies the Operational Verification principle to a classic Newton-Raphson operator.
+
+Run:
+
+python check.py
+
 ## ✅ Sample Output
 
 ### 🔹 `check.py` — Operational Verification (Newton-Raphson)
