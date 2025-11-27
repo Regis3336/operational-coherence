@@ -1,66 +1,44 @@
-```markdown
 
-📘 Operational Coherence
+## 📘 Operational Coherence
 
-A framework that establishes when a symbolic mathematical theory and an independently written implementation represent the same structure.
+A framework connecting symbolic mathematical theories with independently written computational implementations.
 
-Full Title
+### 🔹 Full Title
 
-Operational Coherence: When Mathematical Proofs Acquire a Second Verification Through Computable Instantiation
+_Operational Coherence: When Mathematical Proofs Acquire a Second Verification Through Computable Instantiation_
 
-Key Ideas
+### 🔹 Key Ideas
 
-Insight Paradox: independent constructions converging on the same behavior.
+- **Insight Paradox** — independent constructions converging on the same behavior.
+    
+- **Yoneda Operational Triangle** — identity determined by actions on probes.
+    
+- **Complexity–Rigidity Principle** — high Kolmogorov complexity forces uniqueness.
+    
 
-Yoneda Operational Triangle: actions on probes determine identity.
+### 🔹 Core Statement
 
-Complexity–Rigidity Principle: high Kolmogorov complexity forces structural uniqueness.
+> “Simulations prove nothing — unless they are structural instantiations.”
 
-Core Statement
+### 🔹 What the Framework Shows
 
-“Simulations prove nothing — unless they are structural instantiations.”
+- Agreement between theory `T` and implementation `I` across probes implies **structural identity**.
+    
+- **Kolmogorov bounds**: accidental convergence occurs with probability `< 2⁻ᴷ(T)`.
+    
+- For **K > 300 bits**, certainty exceeds **1 − 10⁻³⁰⁰**.
+    
+- Convergence ≠ empiricism — é **identificação estrutural**.
+    
 
-What the Framework Shows
+### 🔹 Quick Demonstration (`check.py`)
 
-When a theory T and an implementation I agree across probes, they share the same object.
+A minimal operational verification using the **Newton–Raphson** operator.
 
-By Kolmogorov bounds, accidental convergence becomes probability < 2⁻ᴷ(T).
+- Validates independent construction + convergence ⇒ **certainty > 1 − 10⁻³⁰⁰**.
 
-For non-trivial theories (K > 300 bits), certainty exceeds 1 − 10⁻³⁰⁰.
-
-Convergence ≠ empiricism — it is structural identification.
-
-Quick Demonstration (check.py)
-
-A Newton–Raphson operator serves as the minimal example of operational verification.
-
-⚡ The Breakthrough in 30 Seconds
-
-For 80 years, science has treated computational code as a mere approximation of mathematical theory.
-We prove this is a category error.
-
-When a Symbolic Theory (T) and an Independent Implementation (I) converge on their outputs:
-
-Yoneda Principle: If they exhibit identical actions (morphisms) on all probes, they realize the same underlying object.
-
-Kolmogorov Complexity: The probability of this happening by accident is bounded by 2^−K(T).
-
-📉 For any non-trivial theory (K > 300 bits), this probability drops below 10^−90.
-✅ Convergence is not empirical validation. It is Structural Identification.
-
-🧪 The "Hello World" of Epistemology
-
-Don’t believe the philosophy? Run the math.
-
-This repository includes check.py, a self-verifying script that applies the Operational Verification principle to a classic Newton-Raphson operator.
-
-Run:
-
-python check.py
-
-## ✅ Sample Output
-
-### 🔹 `check.py` — Operational Verification (Newton-Raphson)
+```
+### 🔹 `check.py` —  Operational Verification (Newton-Raphson)
 ```text
 ======================================================================
 OPERATIONAL VERIFICATION: SELF-DEMONSTRATING FRAMEWORK
@@ -116,9 +94,9 @@ By the Yoneda lemma: identical actions → identical structure
 By Kolmogorov bounds: accidental coincidence is impossible
 VERDICT: The operational verification framework is CONFIRMED.
 ======================================================================
-PS C:\Users\reina\Desktop\final_IA\operators>
 ```
 
+```
 ### 🔹 `cohomological.py` — Cohomological Verification (Appendix A)
 ```text
 ================================================================================
