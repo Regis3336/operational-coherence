@@ -28,7 +28,7 @@ _Operational Coherence: When Mathematical Proofs Acquire a Second Verification T
     
 - For **K > 300 bits**, certainty exceeds **1 − 10⁻³⁰⁰**.
     
-- Convergence ≠ empiricism — é **identificação estrutural**.
+- Convergence ≠ empiricism — it is **structural identification**.
     
 
 ### 🔹 Quick Demonstration (`check.py`)
